@@ -1,0 +1,17 @@
+# frase = ('Curso em Video Python')
+# print (frase.split())
+# print(frase.lower())
+#print(frase.upper())
+#print('-'.join(frase))
+#print()
+frase = 'Curso em Video Python'
+print(len(frase.strip()))
+#frase = ('Curso em Video Python')
+#print (frase.split())
+# print(frase.lower())
+#print(frase.upper())
+#print('-'.join(frase))
+#print()
+#frase = 'Curso em Video Python' # vou usar
+#dividido = frase.split()
+#print(dividido[0])
