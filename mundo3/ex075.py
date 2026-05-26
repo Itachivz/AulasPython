@@ -2,14 +2,10 @@ n1 = int(input('Digite um numero: '))
 n2 = int(input('Digite um numero: '))
 n3 = int(input('Digite um numero: '))
 n4 = int(input('Digite um numero: '))
-y = 0
 x = (n1, n2, n3, n4)
 
-if 9 in x:
-    y += 1
-
 print(f'Voce digitou os valores: {x}!')
-print(f'O valor 9 apareceu {y} vezes!')
+print(f'O valor 9 apareceu {(n1,n2,n3,n4).count(9)} vezes!')
 if 3 in x:
     print(f'O valor 3 apareceu na posicao {x.index(3)+1}!')
 else:
