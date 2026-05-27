@@ -1,4 +1,3 @@
-# É OS MENOR PECINHA DE SP 011
 largura = float(input('Digite a largura da sua parede: '))
 altura = float(input('Digite a altura da sua parede: '))
 area = largura * altura
