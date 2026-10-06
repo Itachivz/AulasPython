@@ -6,8 +6,17 @@ while True:
         lista.append(x)
         print("Valor adicionado com sucesso!")
     else:
-        print("Valor duplicado! Não vou adicionar...") 
-    cont = input("Deseja continuar? [S/N]: ").upper()
+        print("Valor duplicado! Não vou adicionar...")
+    while True:
+        cont = input("Deseja continuar? [S/N]: ").upper()
+
+        if cont == "S":
+            break
+        elif cont == "N":
+            break
+        else:
+            "Digite apenas [S/N]!"
+            continue
     if cont == "N":
         break
 lista.sort()
