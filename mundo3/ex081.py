@@ -1,8 +1,7 @@
 lista = []
 
 while True:
-    num = int(input("Digite um valor: "))
-    lista.append(num)
+    lista.append(int(input("Digite um valor: ")))
 
     while True:
         cont = input("Quer continuar? [S/N]: ").upper()
