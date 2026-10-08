@@ -18,6 +18,7 @@ print(f"-="*60)
 print(f"A soma de todos os valores pares digitados é {par}")
 print(f"A soma dos valores da terceira coluna é {tc}")
 print(f"O maior valor da segunda linha é {maior}")
+print(f"-="*60)
 print(f"""[ {matriz[0][0]} ] [ {matriz[0][1]} ] [ {matriz[0][2]} ]
 [ {matriz[1][0]} ] [ {matriz[1][1]} ] [ {matriz[1][2]} ]
 [ {matriz[2][0]} ] [ {matriz[2][1]} ] [ {matriz[2][2]} ]""")
